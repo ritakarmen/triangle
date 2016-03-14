@@ -1,0 +1,208 @@
+
+/***Home Page***/
+
+#home-slider {
+  background: url(../images/home/slider-bg.png) 0 100% repeat-x;
+  position: relative;
+  .main-slider {
+    position: relative;
+    height: 450px;
+  }
+}
+
+#home-slider .slide-text{
+  position: absolute;
+  top: 50px;
+  left: 0;
+  width: 450px;
+}
+
+#home-slider .slider-house {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+#home-slider .slider-circle1 {
+  position: absolute;
+  right: 430px;
+  bottom: 210px;
+}
+
+#home-slider .slider-circle2 {
+  position: absolute;
+  right: 420px;
+  bottom: 245px;
+}
+
+#home-slider .slider-cloud1 {
+  position: absolute;
+  right: 290px;
+  bottom: 250px;
+}
+
+#home-slider .slider-cloud2 {
+  position: absolute;
+  right: 375px;
+  bottom: 330px;
+}
+
+#home-slider .slider-cloud3 {
+  position: absolute;
+  right: 75px;
+  bottom: 300px;
+}
+
+#home-slider .slider-sun {
+  position: absolute;
+  right: 190px;
+  bottom: 300px;
+}
+
+#home-slider .slider-cycle {
+  position: absolute;
+  right: 500px;
+  bottom: 0;
+}
+
+#home-slider h1{
+  margin-top: 70px;
+  margin-bottom: 25px;
+}
+
+#home-slider .btn-common {
+  margin-top: 20px;
+}
+
+#home-slider .preloader {
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  background: #fafafa;
+  text-align: center;
+}
+
+#home-slider .preloader > i {
+  font-size: 48px;
+  height: 48px;
+  line-height: 48px;
+  color: #dbb075;
+  position: absolute;
+  left: 50%;
+  margin-left: -24px;
+  top: 50%;
+  margin-top: -24px;
+}
+#action, 
+#page-breadcrumb {
+  background-image: url(../images/home/tour-bg.png);
+  background-color: #fbfafa;
+  background-repeat: repeat-x;
+  height: 155px;
+  background-position: center;
+  display: table;
+  position: static;
+  width: 100%;
+}
+.service-2{
+  margin-top: 5%;
+}
+.vertical-center{
+  display: table-cell;
+  vertical-align: middle;
+  width: 100%;
+  position: statice;
+}
+
+.sun{
+  background-image: url(../images/home/tour-icon1.png);
+  background-repeat: no-repeat;
+  background-position: 100% bottom;
+}
+
+.single-service{
+  overflow: hidden;
+  display: block;
+  height: 300px;
+}
+.single-service2 {
+  margin-top: -20px;
+}
+
+.single-service img {
+  margin-bottom: 35px;  
+}
+
+.single-service h2 {
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+
+.single-service p {
+  padding: 0 48px;
+}
+
+.action h1{
+  margin-top: 0;
+}
+
+.action p{
+  font-size: 18px;
+  margin-bottom: 0;
+  font-weight: 300;
+}
+
+.action .btn-common{
+  margin-top: 55px;
+  float: left;
+}
+
+.title {
+  color: #404040;
+  font-weight: 300;
+}
+
+.single-features {
+  overflow: hidden;
+  padding-top: 65px;
+  padding-bottom: 40px;
+}
+
+.single-features:last-child {
+  padding-bottom: 95px;
+}
+
+.single-features h2{
+  margin-bottom: 15px;
+}
+
+#clients{
+  padding-bottom: 45px;
+}
+
+.clients {
+  margin-bottom: 45px;
+}
+
+.clients img {
+  display: inline-block;
+}
+
+.clients-logo {
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+.action .btn-common {
+    margin-top: 55px;
+    float: left;
+}
+.tour-button {
+    background-image: url(../images/home/tour-icon2.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    background-position: 151px 4px;
+}
